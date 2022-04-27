@@ -60,7 +60,7 @@ def subgraph2vec(ebunch,G2):
     return fea
 
 
-def graph2vector(G2, train_pos_edges,train_non_edges,test_pos_edges,test_non_edges,pool):
+def graph2vector(G2, train_pos_edges,train_non_edges,test_pos_edges,test_non_edges):
     partial_work = partial(subgraph2vec,G2=G2)
     train_pos_features = pool.map(partial_work,train_pos_edges)
     train_non_features = pool.map(partial_work,train_non_edges)
@@ -112,7 +112,7 @@ def cal_mean_std(auc):
 
 def extra_and_pre(G2, train_pos_edges,train_non_edges,test_pos_edges,test_non_edges):
     train_features, train_labels, test_features, test_labels = graph2vector(
-        G2, train_pos_edges,train_non_edges,test_pos_edges,test_non_edges,pool)
+        G2, train_pos_edges,train_non_edges,test_pos_edges,test_non_edges)
     
     train_features, train_labels,test_features_xy,test_features_yx,test_labels = \
         symmetry(train_features, train_labels, test_features, test_labels)
