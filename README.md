@@ -1,7 +1,12 @@
-# NNESFCancel changes
+# NNESF
 Implementation of [Elementary Subgraph Features for LinkPrediction with Neural Networks](https://ieeexplore.ieee.org/abstract/document/9635695/).
 
-If using this code , please cite our paper.
+
+
+Reference
+---------
+
+If you find the code useful, please cite our paper:
 
 ```
 @article{fang2021elementary,
@@ -13,5 +18,5 @@ If using this code , please cite our paper.
 }
 ```
 
-
+Thanks!
 
