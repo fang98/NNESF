@@ -2,6 +2,11 @@
 Implementation of [Elementary Subgraph Features for Link Prediction with Neural Networks](https://ieeexplore.ieee.org/abstract/document/9635695/).
 
 
+#### Datasets
+
+Raw datasets are obtained from https://github.com/muhanzhang/SEAL/tree/master/MATLAB/data.
+
+
 
 Reference
 ---------
