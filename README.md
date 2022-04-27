@@ -1,5 +1,5 @@
 # NNESF
-Implementation of [Elementary Subgraph Features for LinkPrediction with Neural Networks](https://ieeexplore.ieee.org/abstract/document/9635695/).
+Implementation of [Elementary Subgraph Features for Link Prediction with Neural Networks](https://ieeexplore.ieee.org/abstract/document/9635695/).
 
 
 
