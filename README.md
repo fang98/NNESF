@@ -18,6 +18,9 @@ If you find the code useful, please cite our paper:
   title={Elementary Subgraph Features for Link Prediction with Neural Networks},
   author={Fang, Zhihong and Tan, Shaolin and Wang, Yaonan and Lu, Jinhu},
   journal={IEEE Transactions on Knowledge and Data Engineering},
+  volume={35},
+  number={4},
+  pages={3822-3831},
   year={2021},
   publisher={IEEE}
 }
